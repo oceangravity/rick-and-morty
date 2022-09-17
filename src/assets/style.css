@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.header-image {
+    background-image: linear-gradient(rgb(0 0 0 / 14%), rgb(0 0 0 / 85%)),
+    url(./src/assets/header-image.jpg);
+}
+
+.modal-header-image {
+    background-image: url(./src/assets/modal-header.png);
+}
+
+.ricky-and-morty-glow-animation {
+    animation: ricky-and-morty-glow-animation 5s infinite;
+}
+
+@keyframes ricky-and-morty-glow-animation {
+    50% {
+        -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 1));
+        transform: scale(105%);
+    }
+}
+
+.bounce-enter-active {
+    animation: enter 0.5s;
+    position: absolute;
+    width: 100vw;
+    zoom: 1;
+}
+
+.bounce-leave-active {
+    animation: leave 0.5s;
+    position: absolute;
+    width: 100vw;
+    zoom: 1;
+}
+
+@keyframes enter {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes leave {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-100%);
+    }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g id="Group_11136" data-name="Group 11136" transform="translate(0 -37)">
+        <rect id="Rectangle_2947" data-name="Rectangle 2947" width="24" height="24" rx="4" transform="translate(0 37)" fill="#f4f6f9"/>
+        <g id="source_icons_eye-empty_1_" data-name="source_icons_eye-empty (1)" transform="translate(3.857 42.641)">
+            <path id="Path_4901" data-name="Path 4901" d="M12.009,14.017A2.009,2.009,0,1,0,10,12.009,2.008,2.008,0,0,0,12.009,14.017Z" transform="translate(-3.868 -4.65)" fill="#3cc480" stroke="#3cc480" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <g id="Group_11135" data-name="Group 11135" transform="translate(2.354 -0.874)">
+                <path id="Path_5038" data-name="Path 5038" d="M4,16.032V2.434A.434.434,0,0,1,4.434,2h8.427a.434.434,0,0,1,.307.127L15.446,4.4a.434.434,0,0,1,.127.307V16.032a.434.434,0,0,1-.434.434H4.434A.434.434,0,0,1,4,16.032Z" transform="translate(-4 -2)" fill="none" stroke="#3a84ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+                <path id="Path_5039" data-name="Path 5039" d="M16,4.459v-2.2a.256.256,0,0,1,.437-.181l2.382,2.382a.256.256,0,0,1-.181.437h-2.2A.434.434,0,0,1,16,4.459Z" transform="translate(-8.048 -2)" fill="none" stroke="#3a84ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+            </g>
+        </g>
+    </g>
+</svg>
