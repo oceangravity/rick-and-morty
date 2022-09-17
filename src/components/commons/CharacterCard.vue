@@ -4,8 +4,8 @@
       <div class="relative flex h-[140px] w-[140px] items-center justify-center">
         <img class="" width="140" height="140" :src="props.item.image" alt=""  decoding="async" loading="lazy" />
         <div class="absolute flex h-full w-full cursor-pointer items-end justify-end p-2">
-          <img v-if="chekcFavorite" class="" width="30" height="30" src="src/assets/favorite-on.svg" alt="" @mousedown.prevent.stop="removeFromFavorites"/>
-          <img v-else class="" width="30" height="30" src="src/assets/favorite-off.svg" alt="" @mousedown.prevent.stop="addToFavorites"/>
+          <img v-if="chekcFavorite" class="" width="30" height="30" src="@/assets/favorite-on.svg" alt="" @mousedown.prevent.stop="removeFromFavorites"/>
+          <img v-else class="" width="30" height="30" src="@/assets/favorite-off.svg" alt="" @mousedown.prevent.stop="addToFavorites"/>
         </div>
       </div>
       <div class="flex w-full flex-1 flex-col justify-between px-4 py-3">

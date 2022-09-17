@@ -24,7 +24,7 @@
                     class="cursor-pointer"
                     width="29"
                     height="29"
-                    src="src/assets/close.svg"
+                    src="@/assets/close.svg"
                     alt=""
                     @mousedown="store.modal.active = false"
                   />
@@ -45,7 +45,7 @@
                         class=""
                         width="26"
                         height="26"
-                        src="src/assets/favorite-on.svg"
+                        src="@/assets/favorite-on.svg"
                         alt=""
                       />
                     </div>
@@ -68,7 +68,7 @@
                     class="flex w-full flex-col justify-between gap-2 rounded border border-[#E0E0E0] p-4"
                   >
                     <div class="flex items-center gap-2">
-                      <img src="src/assets/info.svg" alt="" />
+                      <img src="@/assets/info.svg" alt="" />
                       <span class="flex items-center text-xs leading-3">Gender</span>
                     </div>
                     <div class="text-[17px] font-semibold leading-3 text-[#081F32]">{{ store.currentCharacter.gender }}</div>
@@ -77,7 +77,7 @@
                     class="flex w-full flex-col justify-between gap-2 rounded border border-[#E0E0E0] p-4"
                   >
                     <div class="flex items-center gap-2">
-                      <img src="src/assets/info.svg" alt="" />
+                      <img src="@/assets/info.svg" alt="" />
                       <span class="flex items-center text-xs leading-3">Origin</span>
                     </div>
                     <div class="text-[17px] font-semibold leading-3 text-[#081F32] leading-4">{{ store.currentCharacter.origin?.name }}</div>
@@ -86,7 +86,7 @@
                     class="flex w-full flex-col justify-between gap-2 rounded border border-[#E0E0E0] p-4"
                   >
                     <div class="flex items-center gap-2">
-                      <img src="src/assets/info.svg" alt="" />
+                      <img src="@/assets/info.svg" alt="" />
                       <span class="flex items-center text-xs leading-3">Type</span>
                     </div>
                     <div class="text-[17px] font-semibold leading-3 text-[#081F32]">{{ store.currentCharacter.type || 'Unknown' }}</div>

@@ -2,11 +2,11 @@
   <div
     class="header-image relative flex min-h-screen flex-col items-center justify-center gap-4 bg-opacity-50 bg-cover bg-center bg-no-repeat object-scale-down p-4 font-montserrat"
   >
-    <img src="src/assets/suazo.svg" width="150" alt="Suazo Logo" />
+    <img src="@/assets/suazo.svg" width="150" alt="Suazo Logo" />
 
     <img
       class="ricky-and-morty-glow-animation pl-10"
-      src="src/assets/rnm-logo.png"
+      src="@/assets/rnm-logo.png"
       width="600"
       alt="Ricky And Morty"
     />

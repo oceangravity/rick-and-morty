@@ -7,5 +7,5 @@
   </div>
 </template>
 <script setup lang="ts">
-import Suazo from "/src/assets/suazo.svg";
+import Suazo from "@/assets/suazo.svg";
 </script>
