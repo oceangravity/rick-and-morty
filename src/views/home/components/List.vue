@@ -7,7 +7,12 @@
           @mousedown="store.showFavorites = !store.showFavorites">
           <span class="text-[14px] font-normal text-black">Mostrar favoritos</span>
           <img
-            class="" width="30" height="30" :src="`src/assets/favorite-${store.showFavorites ? 'on' : 'off'}.svg`"
+            v-if="!store.showFavorites"
+            class="" width="30" height="30" src="@/assets/favorite-on.svg"
+            alt="" />
+          <img
+            v-else
+            class="" width="30" height="30" src="@/assets/favorite-on.svg"
             alt="" />
         </div>
 
