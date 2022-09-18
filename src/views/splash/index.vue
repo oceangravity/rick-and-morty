@@ -1,6 +1,6 @@
 <template>
   <div
-    class="header-image relative flex min-h-screen flex-col items-center justify-center gap-4 bg-opacity-50 bg-cover bg-center bg-no-repeat object-scale-down p-4 font-montserrat"
+    class="header-image text-neutral-200 relative flex min-h-screen flex-col items-center justify-center gap-4 bg-opacity-50 bg-cover bg-center bg-no-repeat object-scale-down p-4 font-montserrat"
   >
     <img src="@/assets/suazo.svg" width="150" alt="Suazo Logo" />
 

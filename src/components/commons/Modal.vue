@@ -41,13 +41,8 @@
                     <div
                       class="fixed w-[29px] w-[29px] translate-y-[40%] overflow-hidden rounded-full border-[3px] border-white bg-white"
                     >
-                      <img
-                        class=""
-                        width="26"
-                        height="26"
-                        src="@/assets/favorite-on.svg"
-                        alt=""
-                      />
+                      <img v-if="chekcFavorite" class="" width="26" height="26" src="@/assets/favorite-on.svg" alt="" @mousedown.prevent.stop="removeFromFavorites"/>
+                      <img v-else class="" width="26" height="26" src="@/assets/favorite-off.svg" alt="" @mousedown.prevent.stop="addToFavorites"/>
                     </div>
                   </div>
                   <div class="text-[12px] font-medium text-[#4F4F4F] uppercase">{{ store.currentCharacter.status }}</div>
@@ -196,6 +191,7 @@ onMounted(() => {
 });
 
 const modalStatus = computed(() => store.modal.active);
+const chekcFavorite = computed(() => store.favorites.findIndex(item => item.id === store.currentCharacter.id) > -1)
 
 watch(modalStatus, async (active) => {
   if (active) {
