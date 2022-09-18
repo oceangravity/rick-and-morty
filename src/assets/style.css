@@ -7,11 +7,11 @@ body {
 
 .header-image {
     background-image: linear-gradient(rgb(0 0 0 / 14%), rgb(0 0 0 / 85%)),
-    url(./src/assets/header-image.jpg);
+    url(./header-image.jpg);
 }
 
 .modal-header-image {
-    background-image: url(./src/assets/modal-header.png);
+    background-image: url(./modal-header.png);
 }
 
 .ricky-and-morty-glow-animation {
